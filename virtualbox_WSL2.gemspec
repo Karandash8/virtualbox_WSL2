@@ -28,8 +28,8 @@ Gem::Specification.new do |spec|
   # Uncomment to register a new dependency of your gem
   # spec.add_dependency "example-gem", "~> 1.0"
   spec.add_dependency "rake"
-  spec.add_dependency "ruby-debug-ide"
-  spec.add_dependency "debase"
+  spec.add_development_dependency  "ruby-debug-ide"
+  spec.add_development_dependency  "debase"
 
   # For more information and examples about making a new gem, checkout our
   # guide at: https://bundler.io/guides/creating_gem.html
