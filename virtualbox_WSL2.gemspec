@@ -10,8 +10,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Andrei Lapin"]
   spec.email         = ["karandash8@gmail.com"]
 
-  spec.summary       = "Plugin allows to properly use VirtualBox as a provider on WSL2."
-  spec.description   = "Two things happen on top of normal vagrant behavior: (1) the second port forwarding entry will be created on 0.0.0.0 that allows to ssh to VirtualBox VM from WSL2 on Windows IP. (2) Windows IP will be automatically selected for `vagrant ssh` command instean of localhost."
+  spec.summary       = "Plugin allows to properly use VirtualBox as Vagrant provider on WSL2."
+  spec.description   = "Two things happen on top of normal Vagrant behavior: (1) the second port forwarding entry is created on 0.0.0.0 that allows to ssh to VirtualBox VM from WSL2 on Windows IP. (2) Windows IP is automatically selected for `vagrant ssh` command instean of localhost."
   spec.homepage      = "http://www.vagrantup.com"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.4.0")
 
@@ -27,8 +27,6 @@ Gem::Specification.new do |spec|
   # Uncomment to register a new dependency of your gem
   # spec.add_dependency "example-gem", "~> 1.0"
   spec.add_dependency "rake"
-  spec.add_development_dependency  "ruby-debug-ide"
-  spec.add_development_dependency  "debase"
 
   # For more information and examples about making a new gem, checkout our
   # guide at: https://bundler.io/guides/creating_gem.html
