@@ -4,7 +4,7 @@ A plugin for Vagrant that fixes `vagrant up` and `vagrant ssh` when executed fro
 
 Two things happen on top of normal Vagrant behavior:
 - the second port forwarding entry is created on 0.0.0.0 that allows to ssh to VirtualBox VM from WSL2 on Windows IP.
-- Windows IP is automatically selected for `vagrant ssh` command instean of localhost.
+- Windows IP is automatically selected for `vagrant ssh` command instead of localhost.
 
 ## Installation
 
